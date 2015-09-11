@@ -207,7 +207,6 @@ void atheme_init(char *execname, char *log_p)
 	me.kline_id = 0;
 	me.start = time(NULL);
 	CURRTIME = me.start;
-	srand(arc4random());
 
 	/* set signal handlers */
 	init_signal_handlers();
